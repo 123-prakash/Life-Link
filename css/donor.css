@@ -1,0 +1,179 @@
+/* ===========================
+   Become Donor Page
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#c31432,#240b36);
+
+    padding:20px;
+
+}
+.donor-container{
+  min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+
+    margin-top:100px;
+
+    padding:20px;
+}
+
+.donor-card{
+    width:100%;
+    max-width:700px;
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.heading{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.heading i{
+    font-size:55px;
+    color:#e53935;
+    margin-bottom:15px;
+}
+
+.heading h1{
+    font-size:30px;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.heading p{
+    color:#666;
+    line-height:1.6;
+}
+
+.input-box{
+    position:relative;
+    margin-bottom:20px;
+}
+
+.input-box i{
+    position:absolute;
+    left:15px;
+    top:18px;
+    color:#999;
+    font-size:16px;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea{
+    width:100%;
+    padding:14px 14px 14px 45px;
+    border:1px solid #d9d9d9;
+    border-radius:10px;
+    outline:none;
+    font-size:15px;
+    transition:.3s;
+    background:#fff;
+}
+
+.input-box textarea{
+    min-height:120px;
+    resize:vertical;
+    padding-top:16px;
+}
+
+.input-box input:focus,
+.input-box select:focus,
+.input-box textarea:focus{
+    border-color:#e53935;
+    box-shadow:0 0 8px rgba(229,57,53,.20);
+}
+
+button{
+    width:100%;
+    border:none;
+    padding:15px;
+    background:#e53935;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#c62828;
+    transform:translateY(-2px);
+}
+
+button:active{
+    transform:scale(.98);
+}
+
+/* Tablet */
+
+@media(max-width:768px){
+
+.donor-card{
+    padding:28px;
+}
+
+.heading h1{
+    font-size:26px;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:480px){
+
+.donor-container{
+    padding:100px 15px 25px;
+}
+
+.donor-card{
+    padding:22px;
+    border-radius:15px;
+}
+
+.heading i{
+    font-size:45px;
+}
+
+.heading h1{
+    font-size:22px;
+}
+
+.heading p{
+    font-size:14px;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea{
+    font-size:14px;
+    padding:12px 12px 12px 42px;
+}
+
+.input-box i{
+    top:15px;
+    left:14px;
+}
+
+button{
+    padding:13px;
+    font-size:15px;
+}
+
+}

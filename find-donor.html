@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LifeLink | Find Donor</title>
+
+<link rel="stylesheet" href="css/find-donor.css">
+<link rel="stylesheet" href="css/navbar.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+    <div id="navbar"></div>
+
+
+<div class="search-container">
+
+
+<div class="search-card">
+
+
+<div class="heading">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<h1>Find Blood Donor 🩸</h1>
+
+<p>
+Search available donors near you.
+</p>
+
+</div>
+
+
+
+<form id="searchForm">
+
+
+<div class="input-box">
+
+<i class="fa-solid fa-droplet"></i>
+
+<select id="bloodGroup">
+
+<option value="">
+Select Blood Group
+</option>
+
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+
+</select>
+
+</div>
+
+
+
+<div class="input-box">
+
+<i class="fa-solid fa-location-dot"></i>
+
+<input 
+type="text"
+id="city"
+placeholder="Enter City"
+required>
+
+</div>
+
+
+
+<button type="submit">
+
+Search Donor
+
+</button>
+
+
+</form>
+
+
+
+<div id="resultContainer">
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+<script type="module" src="navbar.js"></script>
+<script type="module" src="find-donor.js"></script>
+
+
+</body>
+
+</html>
