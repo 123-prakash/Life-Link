@@ -171,3 +171,57 @@ button{
 }
 
 }
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    body{
+        padding-top:170px;
+    }
+
+    .page{
+        padding:15px;
+    }
+
+    .card{
+        width:100%;
+        max-width:100%;
+        padding:25px 18px;
+        border-radius:18px;
+    }
+
+    .title{
+        text-align:center;
+    }
+
+    .title h1{
+        font-size:28px;
+    }
+
+    .title p{
+        font-size:15px;
+    }
+
+    .input-group{
+        width:100%;
+    }
+
+    .input-group input,
+    .input-group select,
+    .input-group textarea{
+        width:100%;
+        font-size:16px;
+    }
+
+    .input-group textarea{
+        min-height:110px;
+    }
+
+    button{
+        width:100%;
+        font-size:17px;
+    }
+
+}
