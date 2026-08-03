@@ -1,4 +1,5 @@
 import { auth } from "./firebase.js";
+
 import {
     signOut,
     onAuthStateChanged
@@ -40,6 +41,37 @@ async function loadNavbar() {
             alert("Logged Out Successfully");
 
             window.location.href = "login.html";
+
+        });
+
+    }
+
+    // Mobile Menu
+    const menuToggle = document.getElementById("menuToggle");
+
+    const navLinks = document.querySelector(".nav-links");
+
+    if (menuToggle && navLinks && logoutBtn) {
+
+        menuToggle.addEventListener("click", () => {
+
+            navLinks.classList.toggle("active");
+
+            logoutBtn.classList.toggle("active");
+
+            const icon = menuToggle.querySelector("i");
+
+            if (navLinks.classList.contains("active")) {
+
+                icon.classList.remove("fa-bars");
+                icon.classList.add("fa-xmark");
+
+            } else {
+
+                icon.classList.remove("fa-xmark");
+                icon.classList.add("fa-bars");
+
+            }
 
         });
 
