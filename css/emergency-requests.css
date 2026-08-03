@@ -124,3 +124,64 @@ body{
     }
 
 }
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    body{
+        padding-top:170px;
+    }
+
+    .page{
+        padding:15px;
+    }
+
+    .title{
+        text-align:center;
+        margin-bottom:25px;
+    }
+
+    .title h1{
+        font-size:28px;
+    }
+
+    .title p{
+        font-size:15px;
+    }
+
+    .requests-grid{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .request-card{
+        width:100%;
+        padding:20px;
+    }
+
+    .request-card h3{
+        font-size:22px;
+    }
+
+    .request-card p{
+        font-size:15px;
+        word-break:break-word;
+    }
+
+    .badge{
+        font-size:14px;
+    }
+
+    .btn-group{
+        width:100%;
+    }
+
+    .whatsapp-btn{
+        width:100%;
+        font-size:16px;
+    }
+
+}
