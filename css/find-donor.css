@@ -250,3 +250,56 @@ button:hover{
     }
 
 }
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    body{
+        padding-top:170px;
+    }
+
+    .search-container{
+        width:100%;
+        padding:15px;
+    }
+
+    .search-card{
+        width:100%;
+        max-width:100%;
+        padding:25px 18px;
+        border-radius:18px;
+    }
+
+    .heading h1{
+        font-size:28px;
+        text-align:center;
+    }
+
+    .heading p{
+        font-size:15px;
+        text-align:center;
+    }
+
+    .input-box{
+        width:100%;
+    }
+
+    .input-box input,
+    .input-box select{
+        width:100%;
+        font-size:16px;
+    }
+
+    .search-btn{
+        width:100%;
+        font-size:17px;
+    }
+
+    .donor-card{
+        width:100%;
+        margin-top:15px;
+    }
+
+}
